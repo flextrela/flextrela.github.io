@@ -1,0 +1,115 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Flextrela</title>
+  <subtitle>Our full-service approach to development means that we'll take care of scoping, requirements, planning, reporting, management, development, and quality assurance of any project.</subtitle>
+  <updated>2025-04-20T23:42:16-07:00</updated>
+  <author>
+    <name>flextrela</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 flextrela </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Software Development Services</title>
+    <link href="/posts/software-development-services/" rel="alternate" type="text/html" title="Software Development Services" />
+    <published>2020-03-16T00:00:00-07:00</published>
+  
+    <updated>2020-03-16T00:00:00-07:00</updated>
+  
+    <id>/posts/software-development-services/</id>
+    <content type="text/html" src="/posts/software-development-services/" />
+    <author>
+      <name>flextrela</name>
+    </author>
+
+  
+    
+  
+
+  <summary>Our team of seasoned developers has delivered mission‑critical software, earning a reputation for reliable, specification-aligned work. With deep expertise in back‑end architectures and mobile platforms, we excel at solving complex challenges and turning ambitious ideas into dependable products.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Full-Stack Expertise</title>
+    <link href="/posts/full-stack-expertise/" rel="alternate" type="text/html" title="Full-Stack Expertise" />
+    <published>2020-03-13T00:00:00-07:00</published>
+  
+    <updated>2020-03-13T00:00:00-07:00</updated>
+  
+    <id>/posts/full-stack-expertise/</id>
+    <content type="text/html" src="/posts/full-stack-expertise/" />
+    <author>
+      <name>flextrela</name>
+    </author>
+
+  
+    
+  
+
+  <summary>We integrate advanced tools and frameworks for end‑to‑end technical mastery</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Contacts</title>
+    <link href="/posts/contact/" rel="alternate" type="text/html" title="Contacts" />
+    <published>2011-12-19T00:00:00-08:00</published>
+  
+    <updated>2011-12-19T00:00:00-08:00</updated>
+  
+    <id>/posts/contact/</id>
+    <content type="text/html" src="/posts/contact/" />
+    <author>
+      <name>flextrela</name>
+    </author>
+
+  
+    
+  
+
+  <summary>We’d love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello, feel free to get in touch:
+
+
+  Email: hi@flextrela.com
+  Address: 5508 Yonge st., Toronto, ON, M2N 7L2, Canada
+  BN: 812309425
+
+
+
+
+Send a Message
+
+
+
+  
+    Name
+    
+  
+  
+    Email
+    
+  
+  
+    Message
+    
+  
+  Send</summary>
+
+  </entry>
+
+</feed>
+
+
