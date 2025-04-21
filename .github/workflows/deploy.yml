@@ -1,0 +1,38 @@
+name: Build & Deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - main    # or 'master' if you use that as your default
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'          # match your local Ruby version
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle config path vendor/bundle
+        bundle install --jobs=4 --retry=3
+
+    - name: Build site
+      run: bundle exec jekyll build
+
+    - name: Deploy to gh-pages branch
+      uses: peaceiris/actions-gh-pages@v5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: gh-pages
+        # optional: keep_files: true  # if you want to preserve history, remove outdated files, etc.
