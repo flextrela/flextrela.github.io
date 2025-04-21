@@ -1,5 +1,9 @@
 name: Build & Deploy to gh-pages
 
+# Give the GITHUB_TOKEN write access to repo contents
+permissions:
+  contents: write
+
 on:
   push:
     branches:
